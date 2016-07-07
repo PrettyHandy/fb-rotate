@@ -126,11 +126,11 @@ The original code for fb-rotate comes from a programming example in
 the book **Mac OS X Internals: A Systems Approach** by Amit Singh (© 2006). The source is made available under the GNU General Public License (GPL). For more information, see the book's associated web site: [http://osxbook.com][osxbook]
 
 Changes were made by [Eric Nitardy][ericn] (© 2010) which have to be made available under the same license.
-Made available on MacPorts by [PrettyHandy][prettyhandy].
+Made available on Homebrew by [PrettyHandy][prettyhandy].
 
 [osxbook]: http://osxbook.com
 [ericn]: http://cdlbb.github.com
 [fb-rotate]: http://modbookish.lefora.com/topic/3513246/A-Unix-Utility-to-Change-the-Primary-Display-on-OSX/
 [Modbook]: http://www.modbook.com
-
+[prettyhandy]: https://github.com/PrettyHandy
 
