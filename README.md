@@ -131,7 +131,7 @@ the book **Mac OS X Internals: A Systems Approach** by Amit Singh (© 2006). The
 
 Changes were made by [Eric Nitardy][ericn] (© 2010) which have to be made available under the same license.
 
-Made available on Homebrew by [PrettyHandy][prettyhandy].
+Forked and made available on Homebrew by [PrettyHandy][prettyhandy].
 
 [osxbook]: http://osxbook.com
 [ericn]: http://cdlbb.github.com
