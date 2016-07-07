@@ -8,13 +8,17 @@ A Unix utility able to rotate the display on any Mac, including the internal dis
 Compiling fb-rotate
 -------------------
 
-Assuming you have Xcode installed, you can compile the C-code yourself on any Mac OS from 10.3 to 10.11. 
+Assuming you have Xcode installed, you can compile the C-code yourself on any Mac OS from 10.3 to 10.11.
 
 In the Terminal app, after you've changed the current directory to the one `fb-rotate.c` is stored, using
 
      cd <path to the directory>
 
 then,
+
+     make && make install
+
+If you wish to compile manually, you can run
 
      gcc -w -o fb-rotate fb-rotate.c -framework IOKit -framework ApplicationServices
 
@@ -29,11 +33,11 @@ The l-option (list):
      fb-rotate -l
 
 will list the display id's, e.g. in Terminal,
- 
+
      $ ./fb-rotate -l
      Display ID       Resolution
      0x19156030       1280x800                  [main display]
-     0x76405c2d       1344x1008 
+     0x76405c2d       1344x1008
 
 The i-option (info):
 
@@ -79,7 +83,7 @@ will rotate the display with the indicated ID back to the standard orientation, 
 
 (Again, you can also rotate to the 90, 180 and 270 degree orientations.)
 
-Further, there are shortcuts: 
+Further, there are shortcuts:
 
 When using the `-d` option,
 
@@ -116,21 +120,19 @@ Downloads
 Caveats
 -------
 
-Warning: Some white MacBooks (2006-2008), namely those using Intel's integrated graphics, have difficulty rotating to the 90º or 270º orientations and the resulting display may be difficult to use. 
+Warning: Some white MacBooks (2006-2008), namely those using Intel's integrated graphics, have difficulty rotating to the 90º or 270º orientations and the resulting display may be difficult to use.
 
 
-Credits and License 
+Credits and License
 -------------------
 
 The original code for fb-rotate comes from a programming example in
 the book **Mac OS X Internals: A Systems Approach** by Amit Singh (© 2006). The source is made available under the GNU General Public License (GPL). For more information, see the book's associated web site: [http://osxbook.com][osxbook]
 
 Changes were made by [Eric Nitardy][ericn] (© 2010) which have to be made available under the same license.
-Made available on Homebrew by [PrettyHandy][prettyhandy].
 
 [osxbook]: http://osxbook.com
 [ericn]: http://cdlbb.github.com
 [fb-rotate]: http://modbookish.lefora.com/topic/3513246/A-Unix-Utility-to-Change-the-Primary-Display-on-OSX/
 [Modbook]: http://www.modbook.com
 [prettyhandy]: https://github.com/PrettyHandy
-
