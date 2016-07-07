@@ -8,7 +8,7 @@ A Unix utility able to rotate the display on any Mac, including the internal dis
 Compiling fb-rotate
 -------------------
 
-Assuming you have Xcode installed, you can compile the C-code yourself on any Mac OS from 10.3 to 10.6. 
+Assuming you have Xcode installed, you can compile the C-code yourself on any Mac OS from 10.3 to 10.11. 
 
 In the Terminal app, after you've changed the current directory to the one `fb-rotate.c` is stored, using
 
@@ -126,6 +126,7 @@ The original code for fb-rotate comes from a programming example in
 the book **Mac OS X Internals: A Systems Approach** by Amit Singh (© 2006). The source is made available under the GNU General Public License (GPL). For more information, see the book's associated web site: [http://osxbook.com][osxbook]
 
 Changes were made by [Eric Nitardy][ericn] (© 2010) which have to be made available under the same license.
+Made available on MacPorts by [PrettyHandy][prettyhandy].
 
 [osxbook]: http://osxbook.com
 [ericn]: http://cdlbb.github.com
